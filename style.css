@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FDF9F3;
+    color: #333;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #A0522D;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #8B4513;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+.chart-container svg {
+    display: block;
+    margin: auto;
+    overflow: visible;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #ccc;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-size: 0.875rem;
+    fill: #555;
+}
+.line {
+    fill: none;
+    stroke: #0A7272;
+    stroke-width: 2px;
+}
