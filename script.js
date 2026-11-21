@@ -1,1 +1,0 @@
-// Script.js isi logika mining, swap, analisis, dll. (dimasukkan manual sesuai struktur HTML sebelumnya)
